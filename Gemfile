@@ -1,10 +1,13 @@
 source 'https://rubygems.org'
 
-ruby "2.3.0"
+ruby '2.3.0'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 
-# Use SCSS for stylesheets
+#requested as the result of a bug
+gem 'pg'
+
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
