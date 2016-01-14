@@ -7,6 +7,7 @@ gem 'rails', '4.2.5'
 
 #requested as the result of a bug
 gem 'pg'
+gem 'rake', '~>10.5.0'
 
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
